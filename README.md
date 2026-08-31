@@ -1,7 +1,8 @@
-# 🧠 Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Edition)
+# 🧠 Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Edition + 3rd Edition Additions)
 
 ## 📘 Overview
-This repository contains my detailed notes, code notebooks, and mini-projects from *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow (2nd Edition)* by Aurélien Géron.  
+This repository contains my detailed notes, code notebooks, and mini-projects from *Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow* by Aurélien Géron.  
+Primarily based on the **2nd Edition** (the physical copy I'm working from), with select topics pulled in from the **3rd Edition** where it introduces material worth learning that the 2nd Edition doesn't cover (e.g. Diffusion Models). Chapters below are marked where content differs between editions.  
 Each chapter includes Python-based hands-on implementations focusing on end-to-end ML workflows, deep learning, and TensorFlow.
 
 ## 🎯 Goals
@@ -11,6 +12,8 @@ Each chapter includes Python-based hands-on implementations focusing on end-to-e
 - Reproduce key projects using real-world datasets.
 
 ## 📚 Chapter List
+
+### Part I. The Fundamentals of Machine Learning
 1. The Machine Learning Landscape  
 2. End-to-End Machine Learning Project  
 3. Classification  
@@ -20,15 +23,26 @@ Each chapter includes Python-based hands-on implementations focusing on end-to-e
 7. Ensemble Learning and Random Forests  
 8. Dimensionality Reduction  
 9. Unsupervised Learning Techniques  
-10. Neural Networks with Keras  
-11. Deep Learning Fundamentals  
-12. Custom Models and Training  
-13. TensorFlow Workflows  
-14. Convolutional Neural Networks  
-15. Recurrent Neural Networks  
-16. Autoencoders  
-17. Reinforcement Learning  
-18–20. Advanced Topics & Deployment
+
+### Part II. Neural Networks and Deep Learning 
+10. Introduction to Artificial Neural Networks with Keras  
+11. Training Deep Neural Networks
+12. Custom Models and Training with Tensorflow 
+13. Loading and Preprocessing Data with Tensorflow
+14. Deep Computer Vision Using Convolutional Neural Networks  
+15. Processing Sequences Using RNNs and CNNs 
+16. Natural Language Processing with RNNs and Attention *(v3: expanded to cover Transformers, modern language models, and Vision Transformers)*
+17. Representation Learning and Generative Learning using Autoencoders and GANs *(v3: renamed "Autoencoders, GANs, and Diffusion Models" — adds Diffusion Models, including building a DDPM from scratch)*
+18. Reinforcement Learning 
+19. Training and Deploying Tensorflow Models at Scale *(v3: updated to Google Vertex AI, adds TensorFlow.js and distributed training techniques)*
+
+A. Exercise Solutions
+B. Machine Learning Project Checklist
+C. SVM Dual Problem
+D. Autodiff
+E. Other Popular ANN Architectures
+F. Special Data Structures
+G. TensorFlow Graphs
 
 
 ## 🌟 Outcome
