@@ -33,3 +33,10 @@ Each chapter includes Python-based hands-on implementations focusing on end-to-e
 
 ## 🌟 Outcome
 Develop full-stack ML understanding and create reusable notebooks for Kaggle and deployment-ready models.
+
+## Attribution
+Some notebook code in this repository is adapted from
+[ageron/handson-ml3](https://github.com/ageron/handson-ml3),
+licensed under Apache 2.0 (see [LICENSE-APACHE](./LICENSE-APACHE)).
+My own notes, explanations, and additions throughout are original,
+under this repo's MIT license.
